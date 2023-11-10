@@ -1,5 +1,7 @@
 # Ultimate EVM Tracing Reference
 
+[![Telegram Chat](https://img.shields.io/badge/Telegram-join_chat-blue.svg)](https://t.me/paradigm_data)
+
 This repo is a collection of trace-related information for easy reference.
 
 A best effort is made to provide accurate information. Please submit corrections to the issue tracker.
