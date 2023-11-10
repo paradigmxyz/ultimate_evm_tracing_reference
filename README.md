@@ -152,7 +152,7 @@ Most platforms only support call traces.
 
 ## Example Tracer Data
 
-A 100 block sample of data is provided for each tracer (block range 10,000,000 through 10,000,999)
+A 100 block sample of data is provided for each tracer (block range 10,000,000 through 10,000,099)
 
 <table>
 <thead>
