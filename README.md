@@ -87,6 +87,21 @@ Each node client supports a different set of tracers and trace methods.
 | `debug_traceBlockByNumber`      | ✅ | ✅ | ✅ | ❌ | ✅ |
 | `debug_traceBlockByHash`        | ✅ | ✅ | ✅ | ✅ | ✅ |
 
+The set of traces that can be obtained for a chain is determined by the clients that support that chain:
+
+| rpc method | geth | reth | [erigon](https://github.com/ledgerwatch/erigon#system-requirements) | [besu](https://besu.hyperledger.org/public-networks/get-started/connect/mainnet) | [nethermind](https://www.quicknode.com/guides/infrastructure/node-setup/how-to-run-nethermind-node) | geth fork |
+| --: | :-: | :-: | :-: | :-: | :-: | :-: |
+| ethereum | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ |
+| goerli   | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ |
+| [arbitrum](https://docs.arbitrum.io/node-running/how-tos/running-a-full-node) | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ |
+| [optimism](https://community.optimism.io/docs/developers/bedrock/node-operator-guide/) | ❌ | ✅ | ❌ | ❌ | ❌ | ✅ |
+| zora     | ❌ | ✅ | ❌ | ❌ | ❌ | ✅ |
+| [base](https://docs.base.org/guides/run-a-base-node/)     | ❌ | ✅ | ❌ | ❌ | ❌ | ✅ |
+| [polygon](https://wiki.polygon.technology/docs/category/operate-a-node/)  | ❌ | ❌ | ✅ | ❌ | ❌ | ✅ |
+| [gnosis](https://docs.gnosischain.com/node/manual/execution)   | ✅ | ❌ | ✅ | ✅ | ✅ | ❌ |
+| [bnb](https://github.com/bnb-chain/bsc)      | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ |
+
+
 ## RPC Provider Support
 
 RPC providers create endpoints where customers can access RPC data without having to run their own nodes.
