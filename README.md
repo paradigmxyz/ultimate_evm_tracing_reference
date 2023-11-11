@@ -99,7 +99,7 @@ The set of traces that can be obtained for a chain is determined by the clients 
 | [base](https://docs.base.org/guides/run-a-base-node/)     | ❌ | ✅ | ❌ | ❌ | ❌ | ✅ |
 | [polygon](https://wiki.polygon.technology/docs/category/operate-a-node/)  | ❌ | ❌ | ✅ | ❌ | ❌ | ✅ |
 | [gnosis](https://docs.gnosischain.com/node/manual/execution)   | ✅ | ❌ | ✅ | ✅ | ✅ | ❌ |
-| [bnb](https://github.com/bnb-chain/bsc)      | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ |
+| [bnb](https://github.com/bnb-chain/bsc)      | ❌ | ❌ | ✅[*](https://github.com/node-real/bsc-erigon) | ❌ | ❌ | ✅ |
 
 
 ## RPC Provider Support
