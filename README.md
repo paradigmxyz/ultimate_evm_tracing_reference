@@ -153,7 +153,7 @@ Hosted data platforms allow customers to interact with trace data directly witho
 
 Most platforms only support call traces. 
 
-| tracer | [Dune](https://dune.com/docs/data-tables/raw/evm/traces/) | [Flipside](https://flipsidecrypto.xyz/) | [Bigquery](https://cloud.google.com/blog/products/data-analytics/ethereum-bigquery-public-dataset-smart-contract-analytics) | [Allium](https://docs.allium.so/real-time-data/raw/traces) |
+| tracer | [Dune](https://dune.com/docs/data-tables/raw/evm/traces/) | [Flipside](https://flipsidecrypto.xyz/) | [Bigquery](https://cloud.google.com/blog/products/data-analytics/ethereum-bigquery-public-dataset-smart-contract-analytics) | [Allium](https://docs.allium.so/data-tables/ethereum/decoded/decoded-traces) |
 | --: | :-: | :-: | :-: | :-: |
 | `parity calls`      | ✅ | ✅ | ✅ | ✅ |
 | `parity stateDiffs` | ❌ | ❌ | ❌ | ❌ |
