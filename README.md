@@ -108,22 +108,22 @@ RPC providers create endpoints where customers can access RPC data without havin
 
 Every node provider supports different tracers and trace methods. 
 
-| rpc method | [infura](https://docs.infura.io/networks/ethereum/json-rpc-methods/trace-methods) | [alchemy](https://docs.alchemy.com/reference/trace-api)<br>([pricing](https://docs.alchemy.com/reference/compute-unit-costs#debug-api)) | [quicknode](https://www.quicknode.com/docs/ethereum)<br>([pricing](https://www.quicknode.com/api-credits)) | [llamanodes](https://llamanodes.notion.site/Ethereum-Request-Method-Pricing-288b72d56067497c88deddef36dbb19e)<br>([pricing](https://llamanodes.notion.site/Ethereum-Request-Method-Pricing-288b72d56067497c88deddef36dbb19e)) |
-| --: | :-: | :-: | :-: | :-: |
-| `trace_block`                   | ✅ | ✅ | ✅ | ✅ |
-| `trace_transaction`             | ✅ | ✅ | ✅ | ✅ |
-| `trace_replayBlockTransactions` | ❌ | ✅ | ✅ | ✅ |
-| `trace_replayTransaction`       | ❌ | ✅ | ✅ | ✅ |
-| `trace_filter`                  | ✅ | ✅ | ✅ | ✅ |
-| `trace_call`                    | ✅ | ✅ | ✅ | ✅ |
-| `trace_callMany`                | ✅ | ❌ | ✅ | ✅ |
-| `trace_rawTransaction`          | ❌ | ✅ | ✅ | ❌ |
-| `trace_get`                     | ❌ | ✅ | ❌ | ✅ |
-| `debug_traceBlock`              | ❌ | ❌ | ✅ | ❌ |
-| `debug_traceTransaction`        | ❌ | ✅ | ✅ | ✅ |
-| `debug_traceCall`               | ❌ | ✅ | ✅ | ✅ |
-| `debug_traceBlockByNumber`      | ❌ | ✅ | ✅ | ✅ |
-| `debug_traceBlockByHash`        | ❌ | ✅ | ✅ | ✅ |
+| rpc method | [infura](https://docs.infura.io/networks/ethereum/json-rpc-methods/trace-methods) | [alchemy](https://docs.alchemy.com/reference/trace-api)<br>([pricing](https://docs.alchemy.com/reference/compute-unit-costs#debug-api)) | [quicknode](https://www.quicknode.com/docs/ethereum)<br>([pricing](https://www.quicknode.com/api-credits)) | [llamanodes](https://llamanodes.notion.site/Ethereum-Request-Method-Pricing-288b72d56067497c88deddef36dbb19e)<br>([pricing](https://llamanodes.notion.site/Ethereum-Request-Method-Pricing-288b72d56067497c88deddef36dbb19e)) | [chainstack](https://docs.chainstack.com/docs/debug-and-trace-apis)<br>([pricing](https://chainstack.com/pricing/)) |
+| --: | :-: | :-: | :-: | :-: | :-: |
+| `trace_block`                   | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `trace_transaction`             | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `trace_replayBlockTransactions` | ❌ | ✅ | ✅ | ✅ | ✅ |
+| `trace_replayTransaction`       | ❌ | ✅ | ✅ | ✅ | ✅ |
+| `trace_filter`                  | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `trace_call`                    | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `trace_callMany`                | ✅ | ❌ | ✅ | ✅ | ✅ |
+| `trace_rawTransaction`          | ❌ | ✅ | ✅ | ❌ | ✅ |
+| `trace_get`                     | ❌ | ✅ | ❌ | ✅ | ✅ |
+| `debug_traceBlock`              | ❌ | ❌ | ✅ | ❌ | ✅ |
+| `debug_traceTransaction`        | ❌ | ✅ | ✅ | ✅ | ✅ |
+| `debug_traceCall`               | ❌ | ✅ | ✅ | ✅ | ✅ |
+| `debug_traceBlockByNumber`      | ❌ | ✅ | ✅ | ✅ | ✅ |
+| `debug_traceBlockByHash`        | ❌ | ✅ | ✅ | ✅ | ✅ |
 
 ## Ecosystem Tooling Support
 
